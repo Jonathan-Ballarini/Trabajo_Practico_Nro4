@@ -49,8 +49,9 @@ h2 {
 
 .contenedor_juegos p {
     color: black;
-    font-size: 12px;
+    font-size: 16px;
 }
+
 .titulo_juegos {
     color: rgb(156, 0, 54);
     text-align: right;
@@ -103,7 +104,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 1200px;
-    gap: 15px;    
+    gap: 15px;
     background-color: rgb(250, 250, 251);
     padding: 15px;
     border-radius: 5px;
@@ -142,4 +143,61 @@ iframe {
     width: 100%;
     height: 100%;
     border-radius: 5px;
+}
+
+.titulos_detalles {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contenedor_texto {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #BC105C;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+    background-color: rgb(250, 250, 251);
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.explosion-button {
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #ec291b;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.explosion-button:hover {
+    transform: scale(1.1);
+    background-color: #d32f2f;
+    /* Rojo oscuro */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto de animación para hacerla más dinámica */
+.explosion-button:active {
+    transform: scale(0.95);
+    /* Efecto de "presionar" el botón */
 }
