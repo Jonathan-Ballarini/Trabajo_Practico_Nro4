@@ -32,11 +32,16 @@ body {
     padding: 3em;
     margin: 2em;
     border-radius: 2em;
+    box-shadow: 0 0 25px #431DC8;
+    width: auto;
+    height: 120%;
 }
 
 h2{
     margin-right: 2em;
+    text-align: center;
 }
+
 
 .contenedor_juegos {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
