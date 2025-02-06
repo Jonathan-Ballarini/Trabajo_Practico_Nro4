@@ -13,14 +13,14 @@ body {
 
 
 .estilo_imagen {
-        width: 100%;
-        height: auto;
-        border-radius: 15px;
-        margin-bottom: 1em;
-        display: block; /
-        margin-left: auto;
-        margin-right: auto; 
-        justify-content: center;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    display: block; /
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: center;
 }
  
 .contenedor_principal {
@@ -39,7 +39,6 @@ body {
 
 h2{
     margin-right: 2em;
-    text-align: center;
 }
 
 
@@ -105,9 +104,11 @@ button {
     font-weight: bold;
     box-shadow: 20px 0 20px #431DC8;
     margin: 1em;
+    justify-content: center;
 }
 
 button:hover {
     background-color: #00F701;
     transform: scale(1.05);
     box-shadow: 0 0 25px rgb(36, 224, 11);
+}
