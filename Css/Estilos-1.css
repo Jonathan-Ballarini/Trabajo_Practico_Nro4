@@ -35,6 +35,12 @@ body {
     gap: 15px;
 }
 
+.contenedor_articulos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 h2 {
     font-size: 16px;
 }
@@ -192,12 +198,9 @@ iframe {
 .explosion-button:hover {
     transform: scale(1.1);
     background-color: #d32f2f;
-    /* Rojo oscuro */
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Efecto de animación para hacerla más dinámica */
 .explosion-button:active {
     transform: scale(0.95);
-    /* Efecto de "presionar" el botón */
 }
